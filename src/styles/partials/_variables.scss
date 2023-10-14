@@ -1,0 +1,17 @@
+/*Qui le variabili per i colori da usare nello stile del sito, per ora sono valori provvisori, poi si deciderà insieme quali saranno i colori definitivi. Questo file va importato nello style di ogni singolo component in cui va utilizzato con la riga di codice
+
+@use '../styles/_variables.scss' as variables;
+
+e si accede alle proprietà con la dot notation::after
+
+ESEMPIO
+div.box {
+    background-color: _variables.$primaryColor;
+}
+
+*/
+
+$primaryColor: #f88936;
+$secondaryColor: #fcfeff;
+$textColor: #002756;
+$accentColor: #dc6265;
